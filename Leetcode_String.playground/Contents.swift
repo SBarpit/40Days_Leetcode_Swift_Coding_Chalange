@@ -32,3 +32,12 @@ print("Length of Charactes array before compression: \(charactes.count)")
 stringCompressor(&charactes)
 print("Charactes array after compression: \(charactes)")
 print("Length of Charactes array after compression: \(charactes.count)")
+
+
+/*
+// Output
+Charactes array before compression: ["a", "a", "a", "b", "c", "c", "c", "d", "d", "d", "d", "d", "e", "c", "c", "c", "d"]
+Length of Charactes array before compression: 17
+Charactes array after compression: ["a", "3", "b", "c", "3", "d", "5", "e", "c", "3", "d"]
+Length of Charactes array after compression: 11
+ */
